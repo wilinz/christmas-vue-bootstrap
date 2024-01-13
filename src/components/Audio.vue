@@ -1,7 +1,7 @@
 
 <template>
     <div>
-        <audio id="audio" src="http://wangzilong-1256848957.cos.ap-guangzhou.myqcloud.com/Merry-Christmas.mp3" loop="loop">
+        <audio id="audio" src="https://wangzilong-1256848957.cos.ap-guangzhou.myqcloud.com/Merry-Christmas.mp3" loop="loop">
         </audio>
         <img v-on:click="click" v-bind:class="{ play: isPlayed, pause: !isPlayed }" src="../images/music_icon.png" alt="christmas-music" id="christmas_music">
     </div>
